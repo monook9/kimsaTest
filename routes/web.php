@@ -1,5 +1,7 @@
 <?php
-
+use Illuminate\Support\Str;
+use App\User;
+use App\Provider;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -13,4 +15,16 @@
 
 $router->get('/', function () use ($router) {
     return $router->app->version();
+});
+
+$router->get('/key-generation', function () {
+    return Str::random(32);
+});
+
+$router->get('/providers', function () {
+    return Provider::all();
+});
+
+$router->get('/users', function () {
+    return User::all();
 });
