@@ -1,6 +1,6 @@
 # Kimsa Test API
 
-Test API for [Kimsa](https://kimsasoftware.com/) enterprise, chance for change work!.
+Test API for [Kimsa](https://kimsasoftware.com/) enterprise, great chance for change work!.
 
 ## Instrutions
 
