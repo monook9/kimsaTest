@@ -16,4 +16,8 @@ class Setting extends Model
         'allow_public_scheduling',
     ];
 
+    protected $hidden = [
+        'id'
+    ];
+
 }

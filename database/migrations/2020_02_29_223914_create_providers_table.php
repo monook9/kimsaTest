@@ -21,13 +21,13 @@ class CreateProvidersTable extends Migration
             $table->unsignedBigInteger('institution_id');
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('ratings_summary_id');
-            $table->unsignedBigInteger('settings_id');
+            $table->unsignedBigInteger('setting_id');
             $table->timestamps();
 
             $table->foreign('institution_id')->references('id')->on('institutions');
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('ratings_summary_id')->references('id')->on('ratings_summary');
-            $table->foreign('settings_id')->references('id')->on('settings');
+            $table->foreign('setting_id')->references('id')->on('settings');
         });
     }
 

@@ -17,7 +17,7 @@ class ProvidersTableSeeder extends Seeder
                 'institution_id' => rand(1,10),
                 'user_id' => rand(1,10),
                 'ratings_summary_id' => rand(1,5),
-                'settings_id' => rand(1,5),
+                'setting_id' => rand(1,5),
             ]); 
         }
     }

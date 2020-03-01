@@ -17,4 +17,8 @@ class RatingsSummary extends Model
         'count',
     ];
 
+    protected $hidden = [
+        'id'
+    ];
+
 }
