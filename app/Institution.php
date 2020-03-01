@@ -16,9 +16,4 @@ class Institution extends Model
         'logo',
     ];
 
-    // public function providers() 
-    // {
-    //     return $this->belongsToMany(Provider::class);
-    // }
-
 }

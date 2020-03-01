@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class RatingsSummary extends Model 
 {
     protected $table = 'ratings_summary';
+    
     /**
      * The attributes that are mass assignable.
      *
@@ -17,6 +18,11 @@ class RatingsSummary extends Model
         'count',
     ];
 
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
     protected $hidden = [
         'id'
     ];

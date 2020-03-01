@@ -16,6 +16,11 @@ class Setting extends Model
         'allow_public_scheduling',
     ];
 
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
     protected $hidden = [
         'id'
     ];
