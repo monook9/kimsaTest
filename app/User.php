@@ -22,4 +22,8 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         'last_names',
         'avatar',
     ];
+
+    function getFullNameAttribute() {
+        return $this->first_name . ' ' . $this->last_names;
+    }
 }
