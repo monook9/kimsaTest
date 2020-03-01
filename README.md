@@ -2,7 +2,7 @@
 
 Test API for [Kimsa](https://kimsasoftware.com/) enterprise, great chance for change work!.
 
-## Instrutions
+## Instrutions for start
 
 ```
 1.- Clone the repository.
@@ -14,6 +14,25 @@ Test API for [Kimsa](https://kimsasoftware.com/) enterprise, great chance for ch
 7.- Open your browser and go to "/key-generation" URL and copy the result into ".env" file in APP_KEY param.
 8.- In command line run -> "php artisan migrate".
 9.- In command line run -> "php artisan db:seed".
+```
+
+## Usage
+
+```
+1.- Open the command line and get inside the project.
+2.- Run command -> "php -S localhost:8000 -t public".
+3.- Open your browser and go to "/public/providers" URL.
+```
+
+## Correct Params
+
+```
+Pass params by get method.
+- name : string.
+- reputationMin : number
+- reputationMax : number
+- type_provider : number (1 | 2)
+- pagination : number
 ```
 
 ## Technologies used
